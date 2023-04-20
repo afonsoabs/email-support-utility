@@ -24,14 +24,14 @@
         <tr>
 					<td style="padding: 30px 10px 30px 10px; font-family: 'Sarabun', sans-serif; font-size: 20px; text-align: justify;">
 	
-						<b style="font-size: 24px;">14/04/2023</b>
+						<b style="font-size: 24px;">20/04/2023</b>
 						<br>
 						<br>
-						Finalmente chegamos no <b>campeão</b> de tickets.&#128560;&#128560;&#128560;&#128560;
+						Você que é do <b>Rio de Janeiro</b> já está sabendo do presente que a SEFAZ RJ vai te dar dia 25/04?
 						<br>
 						<br>
 
-						Não se desespere, pois dessa vez você vai entender de uma vez por todas todo o processo de como realizar a sua devolução para seu fornecedor de todas as formas imagináveis!
+						Não? pois hoje eu estou aqui pra te dar uma dica sobre como adequar o seu sistema e estoque para receber a nova <b>portaria SUCIEF Nº 126/2023.</b>
 					</td>
         </tr>
 
@@ -43,7 +43,7 @@
 				<!-- titulo & gif -->
 				<tr>
 					<td style="padding: 30px 10px 10px 10px; font-family: 'Sarabun', sans-serif; font-size: 20px; text-align: center;">
-						<b style="font-size: 22px; text-align: center;">A tão temida: Devolução para fornecedor</b>
+						<b style="font-size: 22px; text-align: center;">Portaria SUCIEF 126/2023: mudança nas regras de validação de nota fiscal no Rio de Janeiro</b>
 						<br>
 						<br>
 						<img 
@@ -56,15 +56,43 @@
 				<!-- introdução -->
 				<tr>
 					<td style="padding: 20px 10px 30px 10px; font-family: 'Sarabun', sans-serif; font-size: 18px; text-align: justify;">
-						Mas fique tranquilo(a), assim como vimos na devolução de venda, a de fornecedor segue a mesma lógica, porém com alguns <u><b>acréscimos, </b></u>
-						mas nada muito fora do normal:
+						Mas não precisa se preocupar, pois a validação diz respeito apenas a <b>produtos ST (Substituição Tributária)</b> e vamos mostrar em poucos passos como realizar a adequação no sistema.
 
+						<br>
+						Primeiro, veja o que deve ser preenchido em todos os produtos que são ST, conforme a imagem abaixo, sendo eles:
+
+						<br>
 						<ul>
-							<li>1º - Cadastrar o fornecedor como cliente;</li>
+							<li>MVA;</li>
+							<li>Alíquota créd. ICMS;</li>
+							<li>Alíquota ICMS;</li>
+							<li>Alíquota suportada pelo consumidor final.</li>
 						</ul>
 
-						Feito isso, podemos dar início às correções de <b>estoque, financeiro e fiscal.</b>
+						<br>
+						<img 
+							src="https://s3.amazonaws.com/movidesk-files/033E59B067D8A486BC7CDCB767E26117"
+							width="600px"
+						>
+
+						<br>
+						<br>
+						<b style="font-size: 20px; text-align: center;">E se eu não quiser mudar?</b>
+
+						<br>
+						<br>
+
+						Ai nesse caso eu sinto te informar, mas a partir do dia 25/04/2023 você simplesmente não vai mais emitir notas fiscais para o Rio de Janeiro. É uma adequação obrigatória.
+						Caso não se tenha realizado até a data, as NF retornarão as seguintes rejeições:
+
+						<br>
 						
+						<ul>
+							<li><b>Rejeição 906: </b>Não informados os campos para informações do ICMS Efetivo;</li>
+							<br>
+							<li><b>Rejeição 938: </b>Não informada BCST, pST e ICMSST retido na operação anterior</li>
+						</ul>
+
 					</td>
 				</tr>
 
@@ -77,45 +105,39 @@
 				<tr>
 					<td style="padding: 20px 10px 30px 10px; font-family: 'Sarabun', sans-serif; font-size: 18px; text-align: justify;">
 
-						<b style="font-size: 20px; text-align: center;">Correção no ESTOQUE</b>
+						<b style="font-size: 20px; text-align: center;">Nossa, mas preciso fazer produto a produto?</b>
 
 						<br>
 						<br>
 
-						Se você fez a entrada de nota pela tela do <u>módulo de compras</u>, você pode executar a <b>função 3 - Gerar NF para faturamento</b> conforme a <u>imagem abaixo</u>. Fazendo isso, o pedido vai ser gerado automaticamente
-						como <b>devolução total</b>. Caso seja parcial, basta alterar o pedido no faturamento e nos produtos que não forem ser devolvidos, colocar <b>quantidade 0.</b> Feito isso, basta faturar o pedido e a parte de correção do estoque está concluída!&#128526;
+						Sim e não. As alíquotas de crédito e débito você pode fazer pelo ajuste geral, fazendo o ajuste em todos os produtos ao mesmo tempo.
+						Vale a pena lembrar de <b>filtrar os produtos ST</b> e selecionar todos antes de clicar no botão de <b>Ajuste Geral.</b>
 						
 						<br>
 						<br>
 
 						<img 
-							src="https://s3.amazonaws.com/movidesk-files/1490D0B18954BFD8750061036CFAEF17"
+							src="https://s3.amazonaws.com/movidesk-files/7B1145341B5A4198BEC91C285AB20ED9"
 							width="600px"
 						>
 
 						<br>
 						<br>
 
-						<b>Mas e se eu não dei entrada pelo módulo de compras?</b>
+						Ao abrir a tela de ajuste, basta marcar os campos e preencher os valores conforme mostra a imagem abaixo: 
 
 						<br>
 						<br>
 
-						Então, na tela de faturamento, digite o pedido da seguinte maneira:
+						<img 
+							src="https://s3.amazonaws.com/movidesk-files/B011F7EC8680B71C85DA4651524DE0E7"
+							width="600px"
+						>
 						
 						<br>
 						<br>
 
-						<ul>
-							<li>Selecione o seu fornecedor anteriormente cadastrado como cliente;</li>
-							<br>
-							<li>Na operação, mude para a <b>015 - Dev. de compra (fornecedor);</b></li>
-							<br>
-							<li>Digitar as quantidades e valores dos produtos a devolver, conforme consta na NF do fornecedor(NF de compra);</li>
-						</ul>
-						<br>
-
-						Ao terminar de digitar o pedido, vamos para a segunda parte.
+						Feito isso, concluídos a parte de alterar as alíquotas, faltando apenas o <b>MVA e Alíquota suportada pelo consumidor final.</b> E é nessa parte que eu tenho uma notícia boa e uma ruim &#128517;
 					</td>
 				</tr>
 
@@ -129,35 +151,19 @@
 				<tr>
 					<td style="padding: 20px 10px 30px 10px; font-family: 'Sarabun', sans-serif; font-size: 18px; text-align: justify;">
 
-						<b style="font-size: 20px; text-align: center;">Correção no FINANCEIRO</b>
+						<b style="font-size: 20px; text-align: center;">MVA(%) - Notícia ruim</b>
 
 						<br>
 						<br>
 
-						Assim como já vimos na devolução de venda, essa correção no financeiro não muda. Mas dê uma olhada em como corrigir
-						o financeiro e realizar o abatimento do valor devolvido:
+						O MVA (Margem de Valor Agregado) é uma porcentagem que entra no cálculo de impostos devidos nas operações que possuem produtos ST. Dito isso, <b>cada produto possui seu próprio MVA</b>, ou seja, para cada produto você deverá 
+						cadastrar de forma individual o valor daquele produto. Esse cadastro pode ser feito diretamente no <b>estoque</b>, <b>alterando os dados fiscais</b> do produto conforme imagem abaixo: 
 						
-						<br>
-
-						<ul>
-							<li>1º - Precisamos identificar o <b><u>número da fatura</u></b> gerada no faturamento</li>
-							<br>
-							<li>2º - Abrir o contas a receber e buscar pela fatura</li>
-							<br>
-							<li>3º - Executar a <b>função 2 - abatimento</b></li>
-							<br>
-							<li>4º - Informar o valor que está sendo devolvido, seja ele total ou parcial</li>
-							<br>
-							<li>5º - <b>Salvar</b> </li>
-						</ul>
-
-						Abaixo há um GIF informando como realizar todo o passo a passo sintetizado de forma bem simples:
-
 						<br>
 						<br>
 
 						<img 
-							src="https://s3.amazonaws.com/movidesk-files/D18F99A42A22F6BC455E8A45775C18B9"
+							src="https://s3.amazonaws.com/movidesk-files/2D5A581209E7D7329F48D5009A106793"
 							width="600px"
 						>
 
@@ -176,27 +182,15 @@
 				<tr>
 					<td style="padding: 20px 10px 30px 10px; font-family: 'Sarabun', sans-serif; font-size: 18px; text-align: justify;">
 
-						<b style="font-size: 20px; text-align: center;">Correção no FISCAL</b>
+						<b style="font-size: 20px; text-align: center;">Aliq. sup. pelo consumidor final - Notícia boa</b>
 
 						<br>
 						<br>
 
-						Aqui é onde as coisas parecem complicar, mas nem tanto, pois temos apenas mais dois passos:
+						Aparentemente essa alíquota pode ser fixa em todos os produtos. Então vamos realizar uma atualização no sistema para que ela entre na tela de <b>ajuste geral &#128526;</b>.
 						
 						<br>
 
-						<ul>
-							<li><b>1º caso</b> - Se a nota de venda foi <b>cancelada</b>, você pode parar por aqui e está tudo certo!&#128526; Como ela foi cancelada, não há necessidade de emitir uma nota de devolução.</li>
-							<br>
-							<li><b>2º caso</b> - Se o <b>seu cliente já emitiu a nota de devolução</b> e você fez o informe quando estava gerando o pedido de devolução, você também pode parar por aqui!&#128526; Caso não lembre onde é feito o informe, volte na sessão <b><u>CORREÇÃO ESTOQUE</u></b> e leia o <b>3º passo</b>.</li>
-							<br>
-							<li><b>3º caso</b> - Se você precisar realmente emitir a nota de devolução, basta selecionar o pedido na tela de faturamento, gerar a nota fiscal e transmitir normalmente&#128526;</li>
-						</ul>
-
-						<img 
-							src="https://s3.amazonaws.com/movidesk-files/20C0CBA62196956F08C0C397C4429710"
-							width="600px"
-						>
 
 					</td>
 				</tr>
@@ -210,7 +204,7 @@
 
 				<tr>
 					<td style="padding: 20px 10px 0px 10px; font-family: 'Sarabun', sans-serif; font-size: 18px; text-align: justify;">
-						<b style="font-size: 24px;">Ufa! Chegamos ao final de mais um <b>Support Utility</b> &#128517</b>
+						<b style="font-size: 24px;">Viu como não vai ser tão difícil quanto parece? &#128517;</b>
 
 						<br>
 
@@ -220,7 +214,7 @@
 
 				<tr>
 					<td style="padding: 20px 10px 0px 10px; font-family: 'Sarabun', sans-serif; font-size: 18px; text-align: justify;">
-						Parece ser muita coisa mas eu tenho certeza que você consegue fazer com os olhos fechados! Caso ocorra algum problema, não hesite em entrar em contato conosco pelo chat de atendimento no site
+						Faça as alterações conforme mostrado no ajuste geral e altere o MVA dos produtos. Depois basta sentar e aguardar o ajuste que vai sair ainda hoje! Caso ocorra algum problema, não hesite em entrar em contato conosco pelo chat de atendimento no site
 						<a style="color:black;" target="_blank" href="https://www.tecdisa.com.br">
 							<b>	tecdisa.com.br</b>
 						</a>
@@ -236,7 +230,7 @@
 
 				<tr>
 					<td style="padding: 10px 10px 30px 10px; font-family: 'Sarabun', sans-serif; font-size: 18px; text-align: center;">
-						<img src="https://s3.amazonaws.com/movidesk-files/22B15CAFBE999FD167F531CDBF0A589E" width="600px" align="center">
+						<img src="https://s3.amazonaws.com/movidesk-files/A05BC3038C7B822CEDF498EA3D94E6A1" width="600px" align="center">
 					</td>
 				</tr>
        </table>
